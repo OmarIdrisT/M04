@@ -2,11 +2,13 @@
 <html>
     <head>
         <title>MI WEB</title>
+        <link rel="icon" type="image/x-icon" href=".images/itb.png"/>
     </head>
     <body>
         <header>
-            <h1>TITULO PRUEBA</h1>
-            <h2>kekw</h2>
+            <h1>Hello World!</h1>
+            <h2>We are here</h2>
+            <h3>Empezamos a trabajar HTML</h3>
         </header>
     </body>
 </html>
