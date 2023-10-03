@@ -2,7 +2,7 @@
 <html>
     <head>
         <title>MI WEB</title>
-        <img href="images/itb.png"/>
+        <img src="images/itb.png"/>
     </head>
     <body>
         <header>
