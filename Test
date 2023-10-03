@@ -28,15 +28,15 @@
             <img src="images/0_logo.png" />
         </header>
         <section id="Sección 1">
-            <h4>Artículo 1</h4>
+            <h3>Artículo 1</h3>
             <p>Relleno</p>
-            <h5>Artículo 2 </h5>
+            <h3>Artículo 2 </3>
             <p>Relleno</p>
         </section>
         <section id="Sección 2">
-            <h6>Artículo 3</h6>
+            <h3>Artículo 3</h3>
             <p>Relleno</p>
-            <h7>Artículo 4</h7>
+            <h3>Artículo 4</h3>
             <p>Relleno</p>
         </section>
     </body>
