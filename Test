@@ -29,16 +29,16 @@
         </header>
         <section id="Sección 1">
             <title>Sección 1</title>
-            <h3>Artículo 1</h3>
+            <h4>Artículo 1</h4>
             <p>Relleno</p>
-            <h3>Artículo 2 </3>
+            <h5>Artículo 2</h5>
             <p>Relleno</p>
         </section>
         <section id="Sección 2">
             <title>Sección 2</title>
-            <h3>Artículo 3</h3>
+            <h6>Artículo 3</h6>
             <p>Relleno</p>
-            <h3>Artículo 4</h3>
+            <h7>Artículo 4</h7>
             <p>Relleno</p>
         </section>
     </body>
