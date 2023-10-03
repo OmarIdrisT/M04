@@ -20,7 +20,7 @@
                     <li>
                     <a href="http://twitter.com">Twitter</a>
                     </li>
-                    <li>>
+                    <li>
                     <a href="#Sección 1">Sección 1</a>
                     </li>
                 </ul>
@@ -28,12 +28,14 @@
             <img src="images/0_logo.png"/>
         </header>
         <section id="Sección 1">
+            <title>Sección 1</title>
             <h3>Artículo 1</h3>
             <p>Relleno</p>
             <h3>Artículo 2 </3>
             <p>Relleno</p>
         </section>
         <section id="Sección 2">
+            <title>Sección 2</title>
             <h3>Artículo 3</h3>
             <p>Relleno</p>
             <h3>Artículo 4</h3>
