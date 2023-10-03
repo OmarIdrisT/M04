@@ -35,7 +35,9 @@
             <p>Relleno</p>
         </section>
         <section id="Sección 2">
-            <title>Sección 2</title>
+            <header>
+                <title>Sección 2</title>
+            </header>
             <h6>Artículo 3</h6>
             <p>Relleno</p>
             <h7>Artículo 4</h7>
