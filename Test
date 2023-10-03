@@ -9,7 +9,35 @@
             <h1>Hello World!</h1>
             <h2>We are here</h2>
             <h3>Empezamos a trabajar HTML</h3>
+            <nav>
+                <ul>
+                    <li>
+                    <a href="http://google.com">Google</a>
+                    </li>
+                    <li>
+                    <a href="http://youtube.com">Youtube</a>
+                    </li>
+                    <li>
+                    <a href="http://twitter.com">Twitter</a>
+                    </li>
+                    <li>>
+                    <a href="#Sección 1">Índice</a>
+                    </li>
+                </ul>
+            </nav>
             <img src="images/0_logo.png" />
         </header>
+        <section id="Sección 1">
+            <h4>Artículo 1</h4>
+            <p>Relleno</p>
+            <h5>Artículo 2 </h5>
+            <p>Relleno</p>
+        </section>
+        <section id="Sección 2">
+            <h6>Artículo 3</h6>
+            <p>Relleno</p>
+            <h7>Artículo 4</h7>
+            <p>Relleno</p>
+        </section>
     </body>
 </html>
