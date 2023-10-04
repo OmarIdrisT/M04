@@ -1,9 +1,12 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="UTF-8">
         <title>MI WEB</title>
-        <link rel="icon" type="image/x-icon" href="/images/itb.ico">
+        <link rel="icon" href="images/itb.ico">
     </head>
+
+
     <body>
         <header>
             <h1>Hello World!</h1>
@@ -39,7 +42,7 @@
             <h3>Artículo 3</h3>
                 <p>Relleno</p>
             <h3>Artículo 4</h3>
-                <p>Relleno</p>
+                <p>Test2</p>
         </section>
     </body>
 </html>
