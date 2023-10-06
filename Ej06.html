@@ -17,16 +17,18 @@
                     <label for="poster">Póster</label>
                     <input type="file" name="poster"><br>
                     <label for="version">Versión</label><br>
-                    <input type="checkbox" name="version"><br>
+                    <input type="radio" name="version"><br>
                         <option>IMAX</option>
                         <option>3D</option>
                         <option>Full HD</option>
                     <label for="clasificacion">Clasificación</label><br>
-                    <input type="checkbox" name="clasificacion"><br>
-                        <option>TP</option>
-                        <option>+12</option>
-                        <option>+15</option>
-                        <option>+18</option>
+                    <input type="radio" name="clasificacion"><br>
+                        <select>
+                            <option>TP</option>
+                            <option>+12</option>
+                            <option>+15</option>
+                            <option>+18</option>
+                        </select>
                 </fieldset>
                 <fieldset>
                     <legend>Ficha de proyección</legend>
@@ -36,10 +38,12 @@
                     <input type="text" name="sinopsis" placeholder="Escribe una breve sinopsis"><br>
                     <label for="idioma"></label>
                     <input type="radio" name="idioma"><br>
+                        <select>
                         <option>Inglés</option>
                         <option>Español</option>
                         <option>Alemán</option>
                         <option>Francés</option>
+                        </select>
                     <label for="sesion">Sesión</label>
                     <input type="time" name="sesion"><br>
                     <label for="dias_proyección">Dias de proyección:</label><br>
