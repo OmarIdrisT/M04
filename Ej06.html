@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ejercicio 6 HTML</title>
+    </head>
+    <body>
+        <main>
+            <form action=".">
+                <fieldset>
+                    <legend>Ficha de la película</legend>
+                    <label for="titulo">Título</label>
+                    <input type="text" name="titulo"><br>
+                    <label for="director">Director</label>
+                    <input type="text" name="director"><br>
+                    <label for="fecha_estreno">Fecha de estreno</label>
+                    <input type="date" name="fecha_estreno"><br>
+                    <label for="poster">Póster</label>
+                    <input type="file" name="poster"><br>
+                    <label for="version">Versión</label><br>
+                    <input type="checkbox" name="version"><br>
+                        <option>IMAX</option>
+                        <option>3D</option>
+                        <option>Full HD</option>
+                    <label for="clasificacion">Clasificación</label><br>
+                    <input type="checkbox" name="clasificacion"><br>
+                        <option>TP</option>
+                        <option>+12</option>
+                        <option>+15</option>
+                        <option>+18</option>
+                </fieldset>
+                <fieldset>
+                    <legend>Ficha de proyección</legend>
+                    <label for="sala">Sala</label>
+                    <input type="datalist" name="sala"><br>
+                    <label for="sinopsis"></label>
+                    <input type="text" name="sinopsis" placeholder="Escribe una breve sinopsis"><br>
+                    <label for="idioma"></label>
+                    <input type="radio" name="idioma"><br>
+                        <option>Inglés</option>
+                        <option>Español</option>
+                        <option>Alemán</option>
+                        <option>Francés</option>
+                    <label for="sesion">Sesión</label>
+                    <input type="time" name="sesion"><br>
+                    <label for="dias_proyección">Dias de proyección:</label><br>
+                    <input type="radio" name="dias_proyección"><br>
+                        <option>Lunes</option>
+                        <option>Martes</option>
+                        <option>Miércoles</option>
+                        <option>Jueves</option>
+                        <option>Viernes</option>
+                    <label for="color">Elige un color de fondo</label>
+                    <input type="color" name="color"><br>
+                    <label for="puntuacion_publico">Puntuación del público</label>
+                    <progress name="puntuacion_publico" value="80" max="100"></progress>
+                </fieldset>
+            </form>
+        </main>
+    </body>
+</html>
