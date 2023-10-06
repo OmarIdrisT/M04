@@ -17,25 +17,22 @@
                     <label for="poster">Póster</label>
                     <input type="file" name="poster"><br>
                     <label for="version">Versión</label><br>
-                    <input type="checkbox" name="version">IMAX
-                    <input type="checkbox" name="version">3D
-                    <input type="checkbox" name="version">FULLHD<br>
+                    <input type="radio" name="version">IMAX
+                    <input type="radio" name="version">3D
+                    <input type="radio" name="version">FULLHD<br>
                     <label for="clasificacion">Clasificación</label><br>
-                    <input type="checkbox" name="clasificacion">TP
-                    <input type="checkbox" name="clasificacion">+12
-                    <input type="checkbox" name="clasificacion">+15
-                    <input type="checkbox" name="clasificacion">+18<br>
+                    <input type="radio" name="clasificacion">TP
+                    <input type="radio" name="clasificacion">+12
+                    <input type="radio" name="clasificacion">+15
+                    <input type="radio" name="clasificacion">+18<br>
                 </fieldset>
                 <fieldset>
                     <legend>Ficha de proyección</legend>
                     <label for="sala">Sala</label>
-                    <input type="datalist" name="sala"><br>
-                        <select>
-                            <option>cine de barrio</option>
-                            <option>Cines Yelmo</option>
-                            <option>Cinesa</option>
-                            <option>Cines FULL HD</option>
-                        </select>
+                    <input type="datalist" name="sala">cine de Barrio<br>
+                    <input type="datalist" name="sala">Cines Yelmo<br>
+                    <input type="datalist" name="sala">Cinesa<br>
+                    <input type="datalist" name="sala">Cine FULL HD<br> 
                     <label for="sinopsis"></label>
                     <input type="text" name="sinopsis" placeholder="Escribe una breve sinopsis"><br>
                     <label for="idioma"></label>
