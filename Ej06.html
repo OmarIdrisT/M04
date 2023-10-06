@@ -5,7 +5,7 @@
     </head>
     <body>
         <main>
-            <form action=".">
+            <form action="" method="" enctype="multipart/form-data">
                 <fieldset>
                     <legend>Ficha de la película</legend>
                     <label for="titulo">Título</label>
@@ -15,7 +15,7 @@
                     <label for="fecha_estreno">Fecha de estreno</label>
                     <input type="date" name="fecha_estreno"><br>
                     <label for="poster">Póster</label>
-                    <input type="file" name="poster">Tria un ficher<br>
+                    <input type="file" name="poster"><br>
                     <label for="version">Versión</label><br>
                     <input type="checkbox" name="version">IMAX
                     <input type="checkbox" name="version">3D
@@ -29,10 +29,12 @@
                 <fieldset>
                     <legend>Ficha de proyección</legend>
                     <label for="sala">Sala</label>
-                    <input type="datalist" name="sala">cine de Barrio<br>
-                    <input type="datalist" name="sala">Cines Yelmo<br>
-                    <input type="datalist" name="sala">Cinesa<br>
-                    <input type="datalist" name="sala">Cine FULL HD<br> 
+                        <select>
+                            <option>cine de barrio</option>
+                            <option>Cines Yelmo</option>
+                            <option>Cinesa</option>
+                            <option>Cines FULL HD</option>
+                        </select>
                     <label for="sinopsis"></label>
                     <input type="text" name="sinopsis" placeholder="Escribe una breve sinopsis"><br>
                     <label for="idioma"></label>
