@@ -15,5 +15,15 @@ function prenValorForm() {
 
 // EXERCICI 3
 function colorjs() {
-    document.getElementsbyId("paragrafEx3").style.backgroundColor = "red";
+    document.getElementsByClassName("paragrafEx3")[0].style.backgroundColor = "red";
+    document.getElementsByClassName("paragrafEx3")[1].style.backgroundColor = "blue";
+    document.getElementsByClassName("paragrafEx3")[2].style.backgroundColor = "green";
+}
+
+// EXERCICI 4
+
+function obtenirAtributs() {
+    let element = document.getElementById("itb");
+    let attributes = element.attributes;
+    console.log(attributes);
 }
