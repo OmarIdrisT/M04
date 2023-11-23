@@ -56,6 +56,7 @@ function crearTaula() {
     let numColumnes = parseInt(prompt("Nombre columnes:"));
 
     var taula7 = document.getElementById("Taula7");
+    Taula7.style.borderCollapse="collapse";
 
     taula7.innerHTML="";
 
@@ -64,7 +65,14 @@ function crearTaula() {
 
         for (let j = 0; j < numColumnes; j++) {
             var cel·laTaula7 = document.createElement("td");
+            cel·laTaula7.width=100;
+            cel·laTaula7.height=100;
             filaTaula7.appendChild(cel·laTaula7);
+
+            if(i % 2 != 0 && j % 2 == 0 || i % 2 == 0 && j % 2 != 0) {
+                cel·laTaula7.style.backgroundColor="black";
+            }
+            cel·laTaula7.style.border="none";
         }
         taula7.appendChild(filaTaula7);
     }
